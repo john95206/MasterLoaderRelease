@@ -1,8 +1,16 @@
-## Welcome to GitHub Pages
+## MasterLoader
 
-You can use the [editor on GitHub](https://github.com/john95206/MasterLoaderRelease/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+MasterLoader は Unityアセットです。
+MasterLoader によって、 ゲーム内で参照する様々なデータを Google スプレッドシートで管理することができます。
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+特に、以下のようなデータの管理に非常に有効です。
+- キャラクターデータ（ID、名前、ステータスなど）
+- アイテムデータ（ID、名前、効果など）
+- 翻訳データ（ID、もとのテキスト、日本語訳、英語訳、など）
+
+編集・作成したスプレッドシートのマスターデータは、MasterLoader によって UnityEditor 上でいつでも取得できます。
+取得されたマスターデータは ScriptableObject として Editor上/ゲーム中に限らずいつでも参照できる形で自動的に格納されます。
+同時に、作成された ScriptableObject を手軽に参照できるPrefab も作成されます。
 
 ### Markdown
 
