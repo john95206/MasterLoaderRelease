@@ -1,4 +1,4 @@
-## MasterLoader
+## Introduction
 
 MasterLoader は Unityアセットです。
 MasterLoader によって、 ゲーム内で参照する様々なデータを Google スプレッドシートで管理することができます。
@@ -9,30 +9,22 @@ MasterLoader によって、 ゲーム内で参照する様々なデータを Go
 - 翻訳データ（ID、もとのテキスト、日本語訳、英語訳、など）
 
 編集・作成したスプレッドシートのマスターデータは、MasterLoader によって UnityEditor 上でいつでも取得できます。
-取得されたマスターデータは ScriptableObject として Editor上/ゲーム中に限らずいつでも参照できる形で自動的に格納されます。
-同時に、作成された ScriptableObject を手軽に参照できるPrefab も作成されます。
+取得されたマスターデータは ScriptableObject として Editor上/ゲーム中に限らずいつでも参照できる形で自動的に格納されます。[（ScriptableObjectとは？）](https://docs.unity3d.com/ja/2018.4/Manual/class-ScriptableObject.html)
 
-### Markdown
+同時に、作成された ScriptableObject を参照できる Prefab (MasterInstaller) も作成されます。
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Features
 
-```markdown
-Syntax highlighted code block
+### Loader
 
-# Header 1
-## Header 2
-### Header 3
+スプレッドシートのデータを読み込むと同時に、ScriptableObject に値を格納、MasterInstaller に格納したデータを参照させます
 
-- Bulleted
-- List
+### MasterInstaller
 
-1. Numbered
-2. List
+Loader で格納したデータを参照するPrefab。
 
-**Bold** and _Italic_ and `Code` text
+### SheetCreator
 
-[Link](url) and ![Image](src)
-```
 
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
