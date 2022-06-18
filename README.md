@@ -46,4 +46,11 @@ MasterLoader は読み込み可能な形であれば、どんなスプレッド�
 
 ## Help
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+### SheetCreator View
+
+![SheetCreator](https://user-images.githubusercontent.com/22868752/174416732-e68924e3-508a-437e-8d63-76512be15bfe.png)
+
+- DriveURL: スプレッドシートを作成したいGoogleドライブのURLを入力する。ここに正しいURLを入力することでシート入力機能のステップを進められる
+- MasterName: 作成するシート名
+- Start Editing Values: このボタンをクリックすることで作成するシートに登録する変数を追加するビューを展開できます
+- Create: このボタンを押すことで入力されたURLのドライブにシートを作成します
